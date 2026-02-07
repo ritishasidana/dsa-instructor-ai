@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+.response-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 120px;
+}
+
+.response-card h3 {
+  margin-top: 0;
+  color: #22c55e;
+}
+
+#answer {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}

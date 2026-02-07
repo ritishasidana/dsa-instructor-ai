@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DSA Instructor AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>💻 DSA Instructor AI</h1>
+    <p class="subtitle">Ask DSA questions. Non-DSA? Expect attitude 😈</p>
+
+    <div class="card">
+      <input 
+        type="text" 
+        id="question" 
+        placeholder="Ask a DSA question..."
+      />
+      <button onclick="askQuestion()">Ask</button>
+    </div>
+
+    <div class="response-card">
+      <h3>Instructor's Response</h3>
+      <p id="answer">Waiting for your question...</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
