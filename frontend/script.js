@@ -22,7 +22,6 @@ async function askQuestion() {
 
     const data = await res.json();
 
-    // 👇 FORMAT RESPONSE CLEANLY
     answerEl.innerHTML = formatAnswer(data.answer);
 
   } catch (err) {
@@ -30,7 +29,6 @@ async function askQuestion() {
   }
 }
 
-// 🔥 THIS FUNCTION FIXES ### ** ` * AND MAKES IT LOOK REAL
 function formatAnswer(text) {
   if (!text) return "";
 
