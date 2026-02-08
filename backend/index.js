@@ -8,7 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ⚠️ TEMP: hardcode key JUST to verify backend
 const ai = new GoogleGenAI({
   apiKey: "AIzaSyCF9nSMU6vuzbO-ZG6ieRQ7GBhWGYRTezw"
 });
